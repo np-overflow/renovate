@@ -1,6 +1,6 @@
 {
   "name": "@np-overflow/renovate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Default renovatebot config for np-overflow",
   "license": "MIT",
   "homepage": "https://github.com/np-overflow/renovate",

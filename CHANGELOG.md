@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/np-overflow/renovate/compare/v1.0.1...v1.0.2) (2023-12-31)
+
+
+### Bug Fixes
+
+* ci permissions ([3f5e7e3](https://github.com/np-overflow/renovate/commit/3f5e7e37ff5dfc0425f48e9261f71841f7cc1a93))
+
 ## [1.0.1](https://github.com/np-overflow/renovate/compare/v1.0.0...v1.0.1) (2023-12-31)
 
 
