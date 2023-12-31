@@ -1,0 +1,22 @@
+{
+  "name": "@np-overflow/renovate",
+  "version": "0.0.1",
+  "description": "Default renovatebot config for np-overflow",
+  "license": "MIT",
+  "homepage": "https://github.com/np-overflow/renovate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/np-overflow/renovate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/np-overflow/renovate/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "prepare": "pnpm validate"
+  },
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.13.1"
+}

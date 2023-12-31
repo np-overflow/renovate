@@ -1,0 +1,12 @@
+{
+  "description": "Default config for np-overflow repositories",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  }
+}
