@@ -21,9 +21,12 @@ jobs:
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
 
+      - run: corepack enable
+        if: ${{ steps.release.outputs.release_created }}
+
       - uses: actions/setup-node@v4
         with:
-          node-version: 12
+          cache: "pnpm"
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
 
