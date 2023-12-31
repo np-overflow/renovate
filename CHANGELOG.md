@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/np-overflow/renovate/compare/v1.0.0...v1.0.1) (2023-12-31)
+
+
+### Bug Fixes
+
+* scripts ([d9484ae](https://github.com/np-overflow/renovate/commit/d9484ae13cfad7e6b3d620705562567feba1d55e))
+
 ## 1.0.0 (2023-12-31)
 
 
